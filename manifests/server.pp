@@ -434,7 +434,7 @@ define openvpn::server(
   $group                     = false,
   $ipp                       = false,
   $duplicate_cn              = false,
-  $local                     = $::ipaddress_eth0,
+  $local                     = $::ipaddress_agge,
   $logfile                   = false,
   $port                      = '1194',
   $portshare                 = undef,
